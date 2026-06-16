@@ -1,0 +1,9 @@
+<svg width="640" height="420" viewBox="0 0 640 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="420" rx="32" fill="#eef2ff"/>
+  <rect x="32" y="32" width="576" height="132" rx="24" fill="#2563eb"/>
+  <rect x="32" y="192" width="252" height="28" rx="14" fill="white"/>
+  <rect x="32" y="238" width="448" height="28" rx="14" fill="white"/>
+  <rect x="32" y="284" width="325" height="28" rx="14" fill="white"/>
+  <circle cx="508" cy="284" r="52" fill="#c7d2fe"/>
+  <text x="50%" y="75%" dominant-baseline="middle" text-anchor="middle" fill="#1e293b" font-size="32" font-family="Arial, sans-serif">Portal</text>
+</svg>

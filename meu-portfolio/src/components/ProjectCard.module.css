@@ -1,0 +1,85 @@
+.card {
+  display: flex;
+  gap: 30px;
+
+  background: #111827;
+
+  border-radius: 20px;
+
+  padding: 24px;
+
+  border: 1px solid rgba(255,255,255,.08);
+
+  transition: .3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.preview {
+  width: 360px;
+  height: 220px;
+
+  object-fit: cover;
+
+  border-radius: 16px;
+}
+
+.title {
+  color: white;
+}
+
+.description {
+  color: #b3b3b3;
+}
+
+.techs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tech {
+  background: rgba(139,92,246,.15);
+
+  color: #b794ff;
+
+  padding: 8px 12px;
+
+  border-radius: 999px;
+}
+
+.link {
+  display: inline-block;
+
+  margin-right: 12px;
+
+  padding: 10px 18px;
+
+  background: #8b5cf6;
+
+  color: white;
+
+  border-radius: 999px;
+}
+
+.content {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .card {
+    flex-direction: column;
+  }
+
+  .preview {
+    width: 100%;
+    height: auto;
+  }
+}

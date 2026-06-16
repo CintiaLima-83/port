@@ -1,0 +1,9 @@
+<svg width="640" height="420" viewBox="0 0 640 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="420" rx="32" fill="#ecfccb"/>
+  <rect x="40" y="44" width="560" height="112" rx="26" fill="#65a30d"/>
+  <rect x="40" y="190" width="520" height="32" rx="16" fill="white"/>
+  <rect x="40" y="244" width="520" height="32" rx="16" fill="white"/>
+  <rect x="40" y="298" width="520" height="32" rx="16" fill="white"/>
+  <circle cx="520" cy="176" r="42" fill="#bef264"/>
+  <text x="50%" y="76%" dominant-baseline="middle" text-anchor="middle" fill="#1f2937" font-size="32" font-family="Arial, sans-serif">ToDo</text>
+</svg>

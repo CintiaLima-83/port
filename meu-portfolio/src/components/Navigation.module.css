@@ -1,0 +1,44 @@
+.nav {
+  width: 90px;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 50px;
+
+  padding-top: 120px;
+
+  border-right: 1px solid rgba(255, 255, 255, 0.08);
+
+  background: rgba(255, 255, 255, 0.01);
+
+  position: sticky;
+  top: 0;
+}
+
+.nav a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 10px;
+
+  text-decoration: none;
+
+  color: #bdbdbd;
+
+  font-size: 14px;
+
+  transition: 0.3s;
+}
+
+.nav a:hover {
+  color: #a855f7;
+  transform: translateY(-3px);
+}
+
+.nav svg {
+  stroke-width: 1.8;
+}
