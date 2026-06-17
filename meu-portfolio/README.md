@@ -1,52 +1,53 @@
-# Meu Portfólio
+💼 Meu Portfólio
 
 Portfólio desenvolvido em React para apresentar projetos, habilidades e informações de contato.
 
-## Como rodar localmente
-
-1. Instale as dependências:
-
-```bash
+🚀 Como rodar localmente
+Clone o repositório:
+git clone https://github.com/CintiaLima-83/port.git
+Entre na pasta do projeto:
+cd port
+Instale as dependências:
 npm install
-```
-
-2. Inicie o servidor de desenvolvimento:
-
-```bash
+Inicie o servidor de desenvolvimento:
 npm run dev
-```
+Abra o endereço informado pelo Vite no navegador, geralmente:
+http://localhost:5173
 
-3. Abra o endereço informado pelo Vite no navegador, geralmente `http://localhost:5173`.
+📁 Estrutura do Projeto
+src/components: componentes reutilizáveis do portfólio.
+src/pages: página principal do projeto.
+src/data: dados dos projetos exibidos na seção de projetos.
+src/assets: imagens, ícones e ilustrações utilizadas no portfólio.
 
-## Estrutura do projeto
+🌐 Versão Online
 
-- `src/components`: componentes reutilizáveis do portfólio.
-- `src/pages`: páginas principais de Home, Sobre, Projetos e Contato.
-- `src/data`: dados dos projetos exibidos na seção de projetos.
-- `src/assets`: imagens e ilustrações usadas no portfólio.
+https://port-murex-xi.vercel.app/
 
-## Como acessar online
+📂 Projetos Apresentados
+🌍 Portal de Viagem
 
-O deploy pode ser realizado em plataformas gratuitas como Vercel, Netlify ou GitHub Pages.
+Aplicação desenvolvida com Next.js para apresentação de destinos turísticos, utilizando navegação entre páginas, rotas dinâmicas e design responsivo.
 
-- Versão online: `https://seu-portfolio.vercel.app` (substitua pelo seu link real após a publicação)
+🎬 CineList
 
-## Projetos apresentados
+Aplicação para busca de filmes utilizando a API do TMDB, permitindo pesquisar títulos e visualizar informações de forma dinâmica.
 
-1. **Portal de Viagens** — landing page de destinos turísticos com navegação e design responsivo.
-2. **CineList** — catálogo de filmes com integração de API e filtro de buscas.
-3. **To Do List** — gerenciador de tarefas com marcação de itens concluídos e interface adaptada para mobile.
+📱 Landing Page iPhone 17
 
-## Deploy
+Landing page inspirada na apresentação de produtos da Apple, com foco em design moderno, responsividade e experiência visual.
 
-1. Crie uma conta no Vercel ou Netlify.
-2. Conecte o repositório GitHub.
-3. Configure o build como `npm run build`.
-4. Defina o diretório de publicação como `dist`.
-5. Publique e copie o link final no README.
+🚀 Deploy
 
-## Observações
+O projeto foi publicado utilizando a plataforma Vercel.
 
-- O projeto usa React Router para navegação entre páginas.
-- O estilo é feito com CSS Modules para evitar conflito de classes.
-- Comente as informações pessoais e links conforme sua identidade profissional.
+🛠️ Tecnologias Utilizadas
+React
+JavaScript
+Next.js
+TypeScript
+CSS Modules
+Git
+GitHub
+
+Desenvolvido por Cíntia Lima 💜
