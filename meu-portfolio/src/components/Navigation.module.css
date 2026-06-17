@@ -42,3 +42,35 @@
 .nav svg {
   stroke-width: 1.8;
 }
+
+@media (max-width: 900px) {
+  .nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+    min-height: 70px;
+
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 0;
+
+    border-right: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+
+    background: #070b1d;
+
+    z-index: 1000;
+  }
+
+  .nav a {
+    font-size: 0.75rem;
+  }
+
+  .nav a span {
+    display: none;
+  }
+}

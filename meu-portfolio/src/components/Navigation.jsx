@@ -11,22 +11,22 @@ export default function Navigation() {
   return (
     <nav className={styles.nav}>
       <a href="#projects">
-        <FolderOpen size={24} />
+        <FolderOpen size={22} />
         <span>Projetos</span>
       </a>
 
       <a href="#about">
-        <User size={24} />
+        <User size={22} />
         <span>Sobre</span>
       </a>
 
       <a href="#skills">
-        <Layers3 size={24} />
+        <Layers3 size={22} />
         <span>Habilidades</span>
       </a>
 
       <a href="#contact">
-        <Mail size={24} />
+        <Mail size={22} />
         <span>Contato</span>
       </a>
     </nav>
