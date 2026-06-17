@@ -1,6 +1,7 @@
 import ProjectCard from "../components/ProjectCard";
 import Skills from "../components/Skills";
 import Contact from "../components/Contact";
+import foto from "../screenshots/foto-perfil.jpg";
 
 import { projects } from "../data/projects";
 
@@ -8,54 +9,72 @@ import styles from "./Home.module.css";
 
 export default function Home() {
   return (
-    <main className={styles.content}>
-      <section
-        id="about"
-        className={styles.section}
-      >
-        <h2 className={styles.heading}>
-          Sobre Mim
-        </h2>
+    <>
+      <section className={styles.mobileHero}>
+        <img
+          src={foto}
+          alt="Cíntia Lima"
+          className={styles.mobileAvatar}
+        />
 
-        <p className={styles.about}>
-          Desenvolvedora Front-End em formação pela EBAC,
-          com experiência em React, Next.js,
-          TypeScript e desenvolvimento de interfaces modernas,
-          responsivas e acessíveis.
+        <h1 className={styles.mobileName}>
+          Cíntia Lima
+        </h1>
+
+        <p className={styles.mobileRole}>
+          Desenvolvedora Front-End em formação
         </p>
       </section>
 
-      <section
-        id="projects"
-        className={styles.section}
-      >
-        <h2 className={styles.heading}>
-          Projetos
-        </h2>
+      <main className={styles.content}>
+        <section
+          id="about"
+          className={styles.section}
+        >
+          <h2 className={styles.heading}>
+            Sobre Mim
+          </h2>
 
-        <div className={styles.projects}>
-          {projects.map((project) => (
-            <ProjectCard
-              key={project.id}
-              project={project}
-            />
-          ))}
-        </div>
-      </section>
+          <p className={styles.about}>
+            Desenvolvedora Front-End em formação pela EBAC,
+            com experiência em React, Next.js,
+            TypeScript e desenvolvimento de interfaces modernas,
+            responsivas e acessíveis.
+          </p>
+        </section>
 
-      <section
-        id="skills"
-        className={styles.section}
-      >
-        <Skills />
-      </section>
+        <section
+          id="projects"
+          className={styles.section}
+        >
+          <h2 className={styles.heading}>
+            Projetos
+          </h2>
 
-      <section
-        id="contact"
-        className={styles.section}
-      >
-        <Contact />
-      </section>
-    </main>
+          <div className={styles.projects}>
+            {projects.map((project) => (
+              <ProjectCard
+                key={project.id}
+                project={project}
+              />
+            ))}
+          </div>
+        </section>
+
+        <section
+          id="skills"
+          className={styles.section}
+        >
+          <Skills />
+        </section>
+
+        <section
+          id="contact"
+          className={styles.section}
+        >
+          <Contact />
+        </section>
+      </main>
+    </>
   );
 }

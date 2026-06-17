@@ -1,12 +1,11 @@
 .layout {
-  display: grid;
-  grid-template-columns: 350px 90px 1fr;
+  display: flex;
   min-height: 100vh;
   background: #050816;
 }
 
 @media (max-width: 1024px) {
   .layout {
-    grid-template-columns: 1fr;
+    display: block;
   }
 }

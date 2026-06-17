@@ -18,6 +18,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 90px;
 }
 
 body {
@@ -26,7 +27,7 @@ body {
   background:
     radial-gradient(
       circle at top left,
-      rgba(168,85,247,.15),
+      rgba(168, 85, 247, 0.15),
       transparent 30%
     ),
     #030712;
